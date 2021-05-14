@@ -1,0 +1,59 @@
+h1 { 
+ font-family: Verdana;
+ font-size:60px;
+ text-align: center;
+ color: lightyellow;
+ }
+ img {
+  display: block;
+  margin-left: auto;
+   position: absolute;
+  left: 130px;
+  top: 350px;
+  z-index: 0;
+}
+body {
+	background-color:darkgreen;
+	}
+table {
+	font-family:verdana;
+	font-size: 17px;
+	border-collapse:collapse;
+	width:50%;
+	color: white;
+	margin-left:550px;
+	margin-right:auto;
+	}
+td, th {
+	border: 5px solid white;text-align: left;padding: 20px;
+	}
+tr:nth-child(even) {
+ background-color: orange;
+}
+p1 {
+	text-align: center;
+	color: lightgreen;
+	font-size: 20px;
+}
+p {
+  margin: 50px;
+  font-size:20px;
+  color: darkgreen;
+}
+#liya1 {
+	text-align: right;
+    color: orange;
+}
+#example1 {
+  background-image: url(img_flwrr.gif), url("paper.jpg");
+  background-position: right bottom, left bottom;
+  background-repeat: no-repeat, repeat ;
+  padding: 90px;
+  margin-right:auto;
+}
+#example2 {
+  background-image: url(img_flwr.gif);
+  background-position: center;
+  background-repeat: repeat;
+  padding: 50px;
+}
